@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 2px red solid;
 }
 
 html,
@@ -22,11 +21,11 @@ p {
 
 @font-face {
   font-family: Proxima;
-  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  src: url(../fonts/Proxima-Nova-Thin.otf);
 }
 @font-face {
   font-family: Gill;
-  src: url(fonts/GillSans.ttf);
+  src: url(../fonts/GillSans.ttc);
 }
 .hero {
   max-width: 1280px;
@@ -87,7 +86,7 @@ p {
 }
 .promo-tours .promo p {
   font-size: 30px;
-  margin-top: -20px;
+  margin-top: 5px;
   margin-bottom: 40px;
 }
 .promo-tours .promo button {
@@ -101,13 +100,13 @@ p {
   border: none;
 }
 .promo-tours .promo.Israel {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/tour/tour-01.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-01.jpg");
 }
 .promo-tours .promo.USA {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/tour/tour-02.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-02.jpg");
 }
 .promo-tours .promo.AUS {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/tour/tour-03.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-03.jpg");
 }
 
 @media only screen and (max-width: 1060px) {
@@ -197,6 +196,7 @@ nav .links #endBorder {
   border-style: solid;
   border-color: #79addc;
   flex-direction: row;
+  padding-bottom: 20px;
 }
 .booking-form .info #name,
 .booking-form .info #country {
@@ -213,6 +213,7 @@ nav .links #endBorder {
   border-style: solid;
   border-color: #79addc;
   flex-direction: row;
+  padding-bottom: 5px;
 }
 .booking-form .info ::placeholder {
   color: black;
@@ -229,7 +230,7 @@ nav .links #endBorder {
   font-size: 18px;
   border-color: #79addc;
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin: 10px auto;
   width: 735px;
   height: 58px;
 }
@@ -280,11 +281,9 @@ nav .links #endBorder {
 @media only screen and (max-width: 1060px) {
   .booking-form {
     flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
     margin: 0 auto;
     align-items: center;
-    min-width: 100%;
+    min-width: 80%;
   }
   .booking-form #submit {
     margin-bottom: 100px;
