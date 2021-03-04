@@ -1,0 +1,38 @@
+.about {
+  max-width: 980px;
+  margin: auto;
+  background-color: blue;
+}
+.about .about-bottom-section .client {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+}
+.about .about-bottom-section .client .client-image {
+  width: 260px;
+  height: 150px;
+  background-color: brown;
+  margin-bottom: 38px;
+}
+.about .about-bottom-section .client .client1 {
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-section .client .clientqoute {
+  position: relative;
+  background-color: pink;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 25px;
+}
+.about .about-bottom-section .client .clientqoute p:last-child {
+  color: plum;
+  margin-bottom: 55px;
+}
+.about .about-bottom-section .client .clientqoute .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

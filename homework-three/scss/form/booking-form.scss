@@ -1,0 +1,88 @@
+.booking-form {
+  width: 819px;
+  margin: 79px auto;
+  height: 890px;
+  font-family: Gill;
+  p {
+    font-size: 60px;
+    font-family: Proxima;
+    font-weight: normal;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+
+    .partOne {
+      height: 58px;
+      width: 345px;
+      margin: 0px 10px 20px 0px;
+      border-style: solid;
+      border-color: $site-blue;
+    }
+    .partTwo {
+      height: 58px;
+      width: 460px;
+      border-style: solid;
+      border-color: $site-blue;
+    }
+    ::placeholder {
+      color: black;
+      padding-left: 20px;
+    }
+  }
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .checking {
+      border-style: solid;
+      border-radius: 5px;
+      font-size: 18px;
+      border-color: $site-blue;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      width: 735px;
+      height: 58px;
+    }
+  }
+  text {
+    line-height: 58px;
+    font-size: 18px;
+  }
+
+  .size {
+    flex-direction: row;
+    font-family: Gill;
+    font-size: 18px;
+    select {
+      height: 58px;
+      width: 103px;
+      border-style: solid;
+      border-color: $site-blue;
+      color: black;
+      margin: 10px 30px;
+    }
+  }
+
+  .message {
+    width: 819px;
+    height: 192px;
+    border-style: solid;
+    border-color: $site-blue;
+    margin-top: 20px;
+    ::placeholder {
+      padding-left: 20px;
+    }
+  }
+
+  #submit {
+    margin-top: 40px;
+    width: 813px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: $site-blue;
+    background-color: $site-blue;
+    color: $white;
+  }
+}
