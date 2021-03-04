@@ -41,15 +41,15 @@
   }
   .promo.Israel {
     background-image: linear-gradient(to right, $overlay-black, $overlay-black),
-      url("/images/tour/tour-01.jpg");
+      url("../images/tour-01.jpg");
   }
   .promo.USA {
     background-image: linear-gradient(to right, $overlay-black, $overlay-black),
-      url("/images/tour/tour-02.jpg");
+      url("../images/tour-02.jpg");
   }
   .promo.AUS {
     background-image: linear-gradient(to right, $overlay-black, $overlay-black),
-      url("/images/tour/tour-03.jpg");
+    url("../images/tour-03.jpg");
   }
 }
 @media only screen and (max-width: 1060px) {
